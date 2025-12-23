@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f3f3f3;
+            color: #222;
+        }
+        header {
+            background: #000428;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+        nav {
+            background: #003f8c;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .project {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000428;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hello, I'm FIDEL MOSOTI</h1>
+        <p>Web Developer | Programmer | Designer | Student</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate student pursuing a bachelors degree in electrical and electronics engineering which is a bachelor of science in electrical and electronics engineering. <br>
+            I am a passionate developer who enjoys building websites, apps, and digital tools.
+            
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web development (HTML, CSS, JS)</li>
+            <li>C programming</li>
+            <li>Microcontroller electronics</li>
+            <li>Networking basics</li>
+            <li>Arduino IDE</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Project 1 Title</h3>
+            <p>Brief description of what this project does…</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2 Title</h3>
+            <p>Brief description of this project…</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: mosotifidel7@gmail.com</p>
+        <p>Whatsapp: +254757545495</P>
+        <p>Phone: +254757545495</p>
+    </section>
+
+    <footer>
+        <p>© 2025 FIDEL MOSOTI | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
